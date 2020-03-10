@@ -12,9 +12,9 @@ def main():
         roll = results['roll']
 
 
-        sense.show_message("YAW: " + yaw)
-        sense.show_message("PITCH: " + pitch)
-        sense.show_message("ROLL: " + roll)
+        sense.show_message("YAW: " + str(yaw))
+        sense.show_message("PITCH: " + str(pitch))
+        sense.show_message("ROLL: " + str(roll))
 
         time.sleep(0.5)
     return
